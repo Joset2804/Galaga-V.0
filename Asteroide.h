@@ -43,15 +43,5 @@ inline void Asteroide::Mostrar(Graphics^ g)
 
 inline void Asteroide::Mover(Graphics^ g)
 {
-	/*índiceW++;
-	if (índiceW > 7)
-	{
-		índiceW = 0;
-		índiceH++;
-	}
-	if (índiceH > 7)
-	{
-		índiceH = 0;
-	}*/
 	Mostrar(g);
 }
